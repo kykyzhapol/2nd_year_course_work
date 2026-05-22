@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e0862b517fe0195033965a9b8ebfca93 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e0862b517fe0195033965a9b8ebfca93" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e0862b517fe0195033965a9b8ebfca93 = L.map(
+                "map_e0862b517fe0195033965a9b8ebfca93",
+                {
+                    center: [54.5, 58.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_584ebe375c1e9dca77077d0593c9c0a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_584ebe375c1e9dca77077d0593c9c0a1.addTo(map_e0862b517fe0195033965a9b8ebfca93);
+        
+    
+            var marker_ddcbf1c757b1b2a548be8b0bb152b795 = L.marker(
+                [67.28746597654703, 97.59114878487004],
+                {
+}
+            ).addTo(map_e0862b517fe0195033965a9b8ebfca93);
+        
+    
+            var icon_2c7ad430b3bea0a287354f5aff7d6642 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "bookmark",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9fbe7c1ac5cf5b901571826604b12cb2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81bbdc7e89d033c7f03b7789696a2b63 = $(`<div id="html_81bbdc7e89d033c7f03b7789696a2b63" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести удельного ВРП 2004 (Душевой)</b><br><b>Per capita GRP gravity center 2004 (Душевой)</b><br>Широта/Latitude: 67.2875<br>Долгота/Longitude: 97.5911</div>`)[0];
+                popup_9fbe7c1ac5cf5b901571826604b12cb2.setContent(html_81bbdc7e89d033c7f03b7789696a2b63);
+            
+        
+
+        marker_ddcbf1c757b1b2a548be8b0bb152b795.bindPopup(popup_9fbe7c1ac5cf5b901571826604b12cb2)
+        ;
+
+        
+    
+    
+                marker_ddcbf1c757b1b2a548be8b0bb152b795.setIcon(icon_2c7ad430b3bea0a287354f5aff7d6642);
+            
+    
+            var marker_565ac61dbf6f10946062bd7c32942f29 = L.marker(
+                [67.67337796898047, 106.34182021304085],
+                {
+}
+            ).addTo(map_e0862b517fe0195033965a9b8ebfca93);
+        
+    
+            var icon_86919dcb928d56ae6d3c6f5bc011fa5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bookmark",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45846c821ca96c632682cff121e90fe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_674bcff6caf930687d5472796cee2138 = $(`<div id="html_674bcff6caf930687d5472796cee2138" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести удельного ВРП 2014 (Душевой)</b><br><b>Per capita GRP gravity center 2014 (Душевой)</b><br>Широта/Latitude: 67.6734<br>Долгота/Longitude: 106.3418</div>`)[0];
+                popup_45846c821ca96c632682cff121e90fe2.setContent(html_674bcff6caf930687d5472796cee2138);
+            
+        
+
+        marker_565ac61dbf6f10946062bd7c32942f29.bindPopup(popup_45846c821ca96c632682cff121e90fe2)
+        ;
+
+        
+    
+    
+                marker_565ac61dbf6f10946062bd7c32942f29.setIcon(icon_86919dcb928d56ae6d3c6f5bc011fa5b);
+            
+    
+            var marker_ad18d9bf6506ab8e992b63378abfe5a6 = L.marker(
+                [67.6121933272153, 109.37777122289982],
+                {
+}
+            ).addTo(map_e0862b517fe0195033965a9b8ebfca93);
+        
+    
+            var icon_ce73223a62e2b9587d8c535fc55b66f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bookmark",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6f3e2504c09fde50dd26ad8a7d2bd83a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_790f2c5a6f7fa84aec253af5905f269d = $(`<div id="html_790f2c5a6f7fa84aec253af5905f269d" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести удельного ВРП 2024 (Душевой)</b><br><b>Per capita GRP gravity center 2024 (Душевой)</b><br>Широта/Latitude: 67.6122<br>Долгота/Longitude: 109.3778</div>`)[0];
+                popup_6f3e2504c09fde50dd26ad8a7d2bd83a.setContent(html_790f2c5a6f7fa84aec253af5905f269d);
+            
+        
+
+        marker_ad18d9bf6506ab8e992b63378abfe5a6.bindPopup(popup_6f3e2504c09fde50dd26ad8a7d2bd83a)
+        ;
+
+        
+    
+    
+                marker_ad18d9bf6506ab8e992b63378abfe5a6.setIcon(icon_ce73223a62e2b9587d8c535fc55b66f1);
+            
+    
+            var poly_line_479abe127558fc25f60b8c4e27288517 = L.polyline(
+                [[67.28746597654703, 97.59114878487004], [67.67337796898047, 106.34182021304085], [67.6121933272153, 109.37777122289982]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": "6, 6", "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e0862b517fe0195033965a9b8ebfca93);
+        
+</script>
+</html>

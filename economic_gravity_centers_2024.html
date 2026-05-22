@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3b8704039664a0bd765cb96538447986 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3b8704039664a0bd765cb96538447986" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3b8704039664a0bd765cb96538447986 = L.map(
+                "map_3b8704039664a0bd765cb96538447986",
+                {
+                    center: [55.0, 60.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c8d00b76033b6622d9cdba0ef7a5eb44 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c8d00b76033b6622d9cdba0ef7a5eb44.addTo(map_3b8704039664a0bd765cb96538447986);
+        
+    
+            var marker_5ec1027da80e50f9f02356aad48edf32 = L.marker(
+                [57.446959413185326, 56.95633267172024],
+                {
+}
+            ).addTo(map_3b8704039664a0bd765cb96538447986);
+        
+    
+            var icon_db2b04823dea0b1c74df8b1aa317fa4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3780a68876b3ad881d62b8888f800a29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1215ec3b1116b0bb2f6933a1e5b5f98e = $(`<div id="html_1215ec3b1116b0bb2f6933a1e5b5f98e" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести экономики 2004</b><br><b>Economic gravity center 2004</b><br>Широта/Latitude: 57.4470<br>Долгота/Longitude: 56.9563</div>`)[0];
+                popup_3780a68876b3ad881d62b8888f800a29.setContent(html_1215ec3b1116b0bb2f6933a1e5b5f98e);
+            
+        
+
+        marker_5ec1027da80e50f9f02356aad48edf32.bindPopup(popup_3780a68876b3ad881d62b8888f800a29)
+        ;
+
+        
+    
+    
+                marker_5ec1027da80e50f9f02356aad48edf32.setIcon(icon_db2b04823dea0b1c74df8b1aa317fa4a);
+            
+    
+            var marker_2d7a89e0fc773edd91315fbc232d1ebe = L.marker(
+                [57.1854111096351, 56.67363613314874],
+                {
+}
+            ).addTo(map_3b8704039664a0bd765cb96538447986);
+        
+    
+            var icon_bfb56fc22baa51ca3442a4470013244d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f607cd9e8306e55f33d5ef57337e533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea166d4e4f302703365962b4da145747 = $(`<div id="html_ea166d4e4f302703365962b4da145747" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести экономики 2014</b><br><b>Economic gravity center 2014</b><br>Широта/Latitude: 57.1854<br>Долгота/Longitude: 56.6736</div>`)[0];
+                popup_8f607cd9e8306e55f33d5ef57337e533.setContent(html_ea166d4e4f302703365962b4da145747);
+            
+        
+
+        marker_2d7a89e0fc773edd91315fbc232d1ebe.bindPopup(popup_8f607cd9e8306e55f33d5ef57337e533)
+        ;
+
+        
+    
+    
+                marker_2d7a89e0fc773edd91315fbc232d1ebe.setIcon(icon_bfb56fc22baa51ca3442a4470013244d);
+            
+    
+            var marker_332660a9d226f985707fa2cc3239a927 = L.marker(
+                [57.68782253584773, 57.665613980848796],
+                {
+}
+            ).addTo(map_3b8704039664a0bd765cb96538447986);
+        
+    
+            var icon_0c29bcafe56cee9b9cdad8032010e865 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a787e315840cfe626b660480d51044ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_800c23ea028acd2fe628ef2765f3f355 = $(`<div id="html_800c23ea028acd2fe628ef2765f3f355" style="width: 100.0%; height: 100.0%;"><b>Центр тяжести экономики 2024</b><br><b>Economic gravity center 2024</b><br>Широта/Latitude: 57.6878<br>Долгота/Longitude: 57.6656</div>`)[0];
+                popup_a787e315840cfe626b660480d51044ea.setContent(html_800c23ea028acd2fe628ef2765f3f355);
+            
+        
+
+        marker_332660a9d226f985707fa2cc3239a927.bindPopup(popup_a787e315840cfe626b660480d51044ea)
+        ;
+
+        
+    
+    
+                marker_332660a9d226f985707fa2cc3239a927.setIcon(icon_0c29bcafe56cee9b9cdad8032010e865);
+            
+    
+            var poly_line_1411be60adb5b5f5e393bd30ebaa22db = L.polyline(
+                [[57.446959413185326, 56.95633267172024], [57.1854111096351, 56.67363613314874], [57.68782253584773, 57.665613980848796]],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": "5, 5", "dashOffset": null, "fill": false, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_3b8704039664a0bd765cb96538447986);
+        
+</script>
+</html>
