@@ -1,0 +1,26 @@
+# Core data processing
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# Spatial analysis and visualization
+geopandas>=0.12.0
+folium>=0.14.0
+matplotlib>=3.5.0
+
+# Web mapping
+branca>=0.5.0
+
+# For working with shapefiles and geojson
+shapely>=2.0.0
+pyproj>=3.4.0
+
+# For recursive and date handling (if needed)
+python-dateutil>=2.8.0
+
+# Progress bars and additional utilities
+tqdm>=4.64.0
+
+# For exporting to Excel with formatting
+xlsxwriter>=3.0.0
